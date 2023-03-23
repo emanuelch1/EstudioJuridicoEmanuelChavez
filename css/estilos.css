@@ -16,7 +16,9 @@
     background: #24C6DC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
- 
+    width: auto;
+    list-style: none;
+
 }
 
 .nav-item{
@@ -149,4 +151,14 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 
 .video{
     margin: 30px;
+}
+
+
+/* aca empieza solapa contacto*/
+.maincontacto{
+   
+    margin:20px;
+}
+.mapas{
+    margin: auto;
 }
