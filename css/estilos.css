@@ -186,3 +186,9 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
      text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
      margin-left: 60px;
 }
+@media(max-width:800px){
+    .esconder{
+        width: 100%;
+
+    }
+}
