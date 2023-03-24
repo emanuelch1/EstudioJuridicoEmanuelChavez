@@ -14,7 +14,7 @@
 }
   /*selector index*/   
   
-
+ /*menu nav*/
 .navbar{
     background: #24C6DC;  
     background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  
@@ -23,10 +23,12 @@
     list-style: none;
 
 }
-
 .nav-item{
     font-size: 30px;   
 }
+
+
+
 
 .nombreprincipal{
     text-align: center;
@@ -158,10 +160,29 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 
 
 /* aca empieza solapa contacto*/
+.contacto{ 
+    text-align: center;
+}
+
 .maincontacto{
-   
-    margin:20px;
+    display: inline-block;
+    background-color: #ddfbff;
+   text-align: center;
+    margin:30px; 
+    padding: 60px; 
+}
+.formulario{
+    text-align: center;
+}
+.botonformulario{
+    background-color: rgb(43, 104, 177);
 }
 .mapas{
     margin: auto;
+}
+.encontra{
+    text-align: center;
+     font-size: 50px;
+     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+     margin-left: 60px;
 }
