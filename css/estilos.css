@@ -27,21 +27,27 @@
     font-size: 30px;   
 }
 
+@media(max-width:800px){
+    .titulo{
+        width: 100%;
 
+    }
+}
 
 
 .nombreprincipal{
     text-align: center;
     font-size: 50px;
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);   
+   
+}
+@media(max-width:800px){
+    .nombreprincipal{
+        font-size: 30px;
+
+    }
 }
 
-.carousel-indicators{
-    width: 100%;
-}
-.carousel-inner{
-    height: 80vh;
-}
 .carousel-inner img{
     height: 100%;
     object-fit: cover;
@@ -52,8 +58,16 @@
     font-size: 70px;
     margin: auto;
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
-  
 }
+@media(max-width:800px){
+    .bienv{
+        width: 100%;
+        font-size: 50px;
+
+    }
+}
+
+
 .parrafouno{
     text-align: center;
     background-color: rgb(43, 104, 177);
@@ -65,12 +79,27 @@
     font-size:30px;
 }
 
+@media(max-width:800px){
+    .esconder{
+        width: 100%;
+
+    }
+}
+
 .subti{
     font-size: 50px;  
 }
 
+
 .parrafoprincipal{  
 font-size: 30px;
+}
+@media(max-width:800px){
+    .parrafoprincipal{
+       
+        font-size: 20px;
+
+    }
 }
 
 .piep{   
@@ -81,7 +110,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
     text-align: center;
     font-size: 50px;
     list-style: none;
-    width: auto;
+    width: 100%;
     padding: 10px;
 }
 .redes{
@@ -102,6 +131,12 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
      text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
    
  }
+ @media(max-width:800px){
+    .parrafoprincipal{      
+        font-size: 30px;
+    }
+}
+
  .parrafodos{
     text-align: center;
     background-color: rgb(43, 104, 177);
@@ -135,8 +170,19 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
  }
 
  /* aca empieza solapa servicio*/
+ .nombreprincipalservi{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+ }
+ @media(max-width:800px){
+    .nombreprincipalservi{      
+        font-size: 35px;
+    }
+}
+     
+ 
 .titulolista{
-   
     text-align: center;
     font-size: 30px;
     margin: 20px;
@@ -156,30 +202,61 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 
 .video{
     margin: 30px;
+    margin-left: 400px;
+}
+@media(max-width:800px){
+    .video{
+        width: 100%;
+        margin-left: 10px;
+    }
+}
+/* aca empieza solapa recomendaciones*/
+
+.clientes{
+    margin: 30px;
 }
 
+.subticlientes{
+    font-size: 60px;  
+}
+@media(max-width:800px){
+    .subticlientes{
+        font-size: 30px;
+    }
+}
+.parrafoprincipalclientes{
+    font-size: 40px;
+}
+@media(max-width:800px){
+    .parrafoprincipalclientes{
+        font-size: 20px;
+    }
+}
 
 /* aca empieza solapa contacto*/
-.contacto{ 
+.parrafocontacto{
     text-align: center;
+    background-color: rgb(43, 104, 177);
+    border: 3px solid black;
+    border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+    padding: 30px; 
+    font-size:30px;
+}
+@media(max-width:800px){
+    .parrafocontacto{
+        margin-right: 20px;
+        width: 300px;
+        padding: 20px;
+        font-size: 20px;
+    }
 }
 
-.maincontacto{
-    display: inline-block;
-    background-color: #ddfbff;
-   text-align: center;
-    margin:30px; 
-    padding: 60px; 
-}
-.formulario{
-    text-align: center;
-}
 .botonformulario{
     background-color: rgb(43, 104, 177);
 }
-.mapas{
-    margin: auto;
-}
+
 .encontra{
     text-align: center;
      font-size: 50px;
@@ -187,7 +264,23 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
      margin-left: 60px;
 }
 @media(max-width:800px){
-    .esconder{
+    .encontra{
+        width: 100%;
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+.maincontacto{
+    margin: 50px;
+}
+@media(max-width:800px){
+    .formulario{
+        width: 100%;
+
+    }
+}
+@media(max-width:800px){
+    .mensaje{
         width: 100%;
 
     }
