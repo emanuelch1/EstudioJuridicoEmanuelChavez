@@ -1,0 +1,20 @@
+
+.piep{   
+    background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: $texto-centrado;
+    font-size: 50px;
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+}
+.redes{
+    display: flex;
+    justify-content:space-evenly;
+}
+.derecho{
+    font-size: 20px;
+    margin-top: 60px;
+}

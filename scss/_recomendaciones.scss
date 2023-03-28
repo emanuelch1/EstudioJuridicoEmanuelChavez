@@ -1,0 +1,38 @@
+/* aca empieza solapa recomendaciones*/
+
+.clientes{
+    margin: 30px;
+
+    .subticlientes{
+        font-size: $texto-principal;  
+    }
+    
+    .parrafoprincipalclientes{
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+/*
+.subticlientes{
+    font-size: $texto-principal;  
+}*/
+
+@media(max-width:800px){
+    .subticlientes{
+        font-size: 30px;
+    }
+}
+/*
+.parrafoprincipalclientes{
+    font-size: 40px;
+}*/
+
+@media(max-width:800px){
+    .parrafoprincipalclientes{
+        font-size: 20px;
+    }
+}

@@ -15,11 +15,14 @@
   width: auto;
   list-style: none;
 }
-
-.nav-item {
+.navbar .nav-item {
   font-size: 30px;
 }
 
+/*
+.nav-item{
+    font-size: 30px;   
+}*/
 @media (max-width: 800px) {
   .titulo {
     width: 100%;
@@ -107,7 +110,7 @@
 /* aca empieza solapa nosotros*/
 .quienes {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
 }
 
@@ -148,18 +151,12 @@
 }
 
 /* aca empieza solapa servicio*/
-.nombreprincipalservi {
+.contenidoservi .nombreprincipalservi {
   text-align: center;
   font-size: 50px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
 }
-
-@media (max-width: 800px) {
-  .nombreprincipalservi {
-    font-size: 35px;
-  }
-}
-.titulolista {
+.contenidoservi .titulolista {
   text-align: center;
   font-size: 30px;
   margin: 20px;
@@ -170,12 +167,41 @@
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 10px;
 }
-
-.listaparafo {
+.contenidoservi .listaparafo {
   text-align: center;
   font-size: 20px;
 }
 
+/*
+.nombreprincipalservi{
+    text-align: $texto-centrado;
+    font-size: 50px;
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+ }*/
+@media (max-width: 800px) {
+  .nombreprincipalservi {
+    font-size: 35px;
+  }
+}
+/*
+.titulolista{
+    text-align:$texto-centrado;
+    font-size: 30px;
+    margin: 20px;
+    background-color: $color-parrafos;
+    border: 3px solid black;
+    border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+    padding: 10px; 
+
+}*/
+/*
+.listaparafo{
+
+    text-align: $texto-centrado;
+    font-size: 20px;
+}*/
 .video {
   margin: 30px;
   margin-left: 400px;
@@ -191,27 +217,41 @@
 .clientes {
   margin: 30px;
 }
-
-.subticlientes {
-  font-size: 60px;
+.clientes .subticlientes {
+  font-size: 70px;
+}
+.clientes .parrafoprincipalclientes {
+  font-size: 40px;
 }
 
+/*
+.subticlientes{
+    font-size: $texto-principal;  
+}*/
 @media (max-width: 800px) {
   .subticlientes {
     font-size: 30px;
   }
 }
-.parrafoprincipalclientes {
-  font-size: 40px;
-}
-
+/*
+.parrafoprincipalclientes{
+    font-size: 40px;
+}*/
 @media (max-width: 800px) {
   .parrafoprincipalclientes {
     font-size: 20px;
   }
 }
 /* aca empieza solapa contacto*/
-.parrafocontacto {
+.maincontacto {
+  margin: 50px;
+}
+.maincontacto .contactanos {
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+}
+.maincontacto .parrafocontacto {
   text-align: center;
   background-color: rgb(43, 104, 177);
   border: 3px solid black;
@@ -221,7 +261,33 @@
   padding: 30px;
   font-size: 30px;
 }
+.maincontacto .botonformulario {
+  background-color: rgb(43, 104, 177);
+}
+.maincontacto .encontra {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin-left: 60px;
+}
 
+/*
+.contactanos{
+    text-align: $texto-centrado;
+    font-size: $texto-principal;
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+}*/
+/*
+.parrafocontacto{
+    text-align: $texto-centrado;
+    background-color: rgb(43, 104, 177);
+    border: 3px solid black;
+    border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+    padding: 30px; 
+    font-size:30px;
+}*/
 @media (max-width: 800px) {
   .parrafocontacto {
     margin-right: 20px;
@@ -230,17 +296,17 @@
     font-size: 20px;
   }
 }
-.botonformulario {
-  background-color: rgb(43, 104, 177);
-}
-
-.encontra {
-  text-align: center;
-  font-size: 50px;
-  text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
-  margin-left: 60px;
-}
-
+/*
+.botonformulario{
+    background-color: rgb(43, 104, 177);
+}*/
+/*
+.encontra{
+    text-align: $texto-centrado;
+     font-size: 50px;
+     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+     margin-left: 60px;
+}*/
 @media (max-width: 800px) {
   .encontra {
     width: 100%;
@@ -248,10 +314,10 @@
     margin: 20px;
   }
 }
-.maincontacto {
-  margin: 50px;
-}
-
+/*
+.maincontacto{
+    margin: 50px;
+}*/
 @media (max-width: 800px) {
   .formulario {
     width: 100%;

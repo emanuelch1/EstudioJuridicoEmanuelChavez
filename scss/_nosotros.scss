@@ -1,0 +1,46 @@
+
+/* aca empieza solapa nosotros*/
+.quienes{
+    text-align: $texto-centrado;
+     font-size: $texto-principal;
+     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+   
+ }
+ @media(max-width:800px){
+    .parrafoprincipal{      
+        font-size: 30px;
+    }
+}
+
+ .parrafodos{
+    text-align: $texto-centrado;
+    background-color: $color-parrafos;
+    ;
+    border: 3px solid black;
+    border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+    padding: 30px; 
+    font-size:30px;
+}
+
+.card{
+    text-align: $texto-centrado;
+   margin:auto;
+}
+.titulosomos{
+    text-align: $texto-centrado;
+
+    margin:auto;
+    font-size: 60px;
+    width: 500px;   
+}
+
+ .parrafopie{
+    background-color: aqua;
+    text-align: $texto-centrado;
+    font-size: 20px;
+    margin:20px;
+    padding:30px;
+   
+ }

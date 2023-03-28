@@ -1,0 +1,73 @@
+/* aca empieza solapa servicio*/
+.contenidoservi{
+    .nombreprincipalservi{
+        text-align: $texto-centrado;
+        font-size: 50px;
+        text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+     }
+
+     .titulolista{
+        text-align:$texto-centrado;
+        font-size: 30px;
+        margin: 20px;
+        background-color: $color-parrafos;
+        border: 3px solid black;
+        border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+        padding: 10px;   
+    }
+
+    .listaparafo{
+    
+        text-align: $texto-centrado;
+        font-size: 20px;
+    }
+
+}
+
+
+
+/*
+.nombreprincipalservi{
+    text-align: $texto-centrado;
+    font-size: 50px;
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+ }*/
+
+ @media(max-width:800px){
+    .nombreprincipalservi{      
+        font-size: 35px;
+    }
+}
+     
+ /*
+.titulolista{
+    text-align:$texto-centrado;
+    font-size: 30px;
+    margin: 20px;
+    background-color: $color-parrafos;
+    border: 3px solid black;
+    border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+    padding: 10px; 
+ 
+}*/
+/*
+.listaparafo{
+    
+    text-align: $texto-centrado;
+    font-size: 20px;
+}*/
+
+.video{
+    margin: 30px;
+    margin-left: 400px;
+}
+@media(max-width:800px){
+    .video{
+        width: 100%;
+        margin-left: 10px;
+    }
+}

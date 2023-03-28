@@ -1,0 +1,95 @@
+/* aca empieza solapa contacto*/
+.maincontacto{
+        margin: 50px;
+
+        .contactanos{
+            text-align: $texto-centrado;
+            font-size: $texto-principal;
+            text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+        }
+    
+        .parrafocontacto{
+            text-align: $texto-centrado;
+            background-color: rgb(43, 104, 177);
+            border: 3px solid black;
+            border-radius: 47px 47px 47px 47px;
+        -webkit-border-radius: 47px 47px 47px 47px;
+        -moz-border-radius: 47px 47px 47px 47px;
+            padding: 30px; 
+            font-size:30px;
+        }
+
+        .botonformulario{
+            background-color: rgb(43, 104, 177);
+        }
+
+        .encontra{
+            text-align: $texto-centrado;
+             font-size: 50px;
+             text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+             margin-left: 60px;
+        }
+    
+
+}
+
+
+/*
+.contactanos{
+    text-align: $texto-centrado;
+    font-size: $texto-principal;
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+}*/
+/*
+.parrafocontacto{
+    text-align: $texto-centrado;
+    background-color: rgb(43, 104, 177);
+    border: 3px solid black;
+    border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+    padding: 30px; 
+    font-size:30px;
+}*/
+@media(max-width:800px){
+    .parrafocontacto{
+        margin-right: 20px;
+        width: 300px;
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+/*
+.botonformulario{
+    background-color: rgb(43, 104, 177);
+}*/
+/*
+.encontra{
+    text-align: $texto-centrado;
+     font-size: 50px;
+     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+     margin-left: 60px;
+}*/
+@media(max-width:800px){
+    .encontra{
+        width: 100%;
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+/*
+.maincontacto{
+    margin: 50px;
+}*/
+@media(max-width:800px){
+    .formulario{
+        width: 100%;
+
+    }
+}
+@media(max-width:800px){
+    .mensaje{
+        width: 100%;
+
+    }
+}
