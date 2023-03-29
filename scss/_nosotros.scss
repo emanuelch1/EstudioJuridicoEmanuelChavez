@@ -8,7 +8,7 @@
  }
  @media(max-width:800px){
     .parrafoprincipal{      
-        font-size: 30px;
+        font-size: map-get($tamaño-pixeles, 30p);
     }
 }
 
@@ -21,7 +21,7 @@
 -webkit-border-radius: 47px 47px 47px 47px;
 -moz-border-radius: 47px 47px 47px 47px;
     padding: 30px; 
-    font-size:30px;
+    font-size:map-get($tamaño-pixeles, 30p);
 }
 
 .card{
@@ -32,14 +32,14 @@
     text-align: $texto-centrado;
 
     margin:auto;
-    font-size: 60px;
-    width: 500px;   
+    font-size: map-get($tamaño-pixeles, 60p);
+    width: map-get($tamaño-pixeles, 500p);   
 }
 
  .parrafopie{
     background-color: aqua;
     text-align: $texto-centrado;
-    font-size: 20px;
+    font-size: map-get($tamaño-pixeles, 20p);
     margin:20px;
     padding:30px;
    

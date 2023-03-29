@@ -8,7 +8,7 @@
     width: auto;
     list-style: none;
     .nav-item{
-        font-size: 30px;   
+        font-size: map-get($tamaño-pixeles, 30p);   
     }
     
 }
@@ -28,13 +28,13 @@
 
 .nombreprincipal{
     text-align: $texto-centrado;
-    font-size: 50px;
+    font-size: map-get($tamaño-pixeles, 50p);
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);   
    
 }
 @media(max-width:800px){
     .nombreprincipal{
-        font-size: 30px;
+        font-size: map-get($tamaño-pixeles, 30p);
 
     }
 }
@@ -45,15 +45,17 @@
 }
 
 .bienv{
+     
    text-align: $texto-centrado;
     font-size: $texto-principal;
     margin: auto;
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
 }
+
 @media(max-width:800px){
     .bienv{
         width: 100%;
-        font-size: 50px;
+        font-size: map-get($tamaño-pixeles, 50p);
 
     }
 }
@@ -85,10 +87,11 @@
 .parrafoprincipal{  
 font-size: $textos-letraparrafo;
 }
+
 @media(max-width:800px){
     .parrafoprincipal{
        
-        font-size: 20px;
+        font-size:map-get($tamaño-pixeles, 20p,);
 
     }
 }

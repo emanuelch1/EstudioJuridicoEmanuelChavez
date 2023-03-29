@@ -1,14 +1,14 @@
 /* aca empieza solapa recomendaciones*/
 
 .clientes{
-    margin: 30px;
+    margin: map-get($tamaño-pixeles, 30p);
 
     .subticlientes{
         font-size: $texto-principal;  
     }
     
     .parrafoprincipalclientes{
-        font-size: 40px;
+        font-size: map-get($tamaño-pixeles, 40p);
     }
 
 }
@@ -23,7 +23,7 @@
 
 @media(max-width:800px){
     .subticlientes{
-        font-size: 30px;
+        font-size: map-get($tamaño-pixeles, 30p);
     }
 }
 /*
@@ -33,6 +33,6 @@
 
 @media(max-width:800px){
     .parrafoprincipalclientes{
-        font-size: 20px;
+        font-size: map-get($tamaño-pixeles, 20p);
     }
 }

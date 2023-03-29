@@ -16,7 +16,7 @@
         -webkit-border-radius: 47px 47px 47px 47px;
         -moz-border-radius: 47px 47px 47px 47px;
             padding: 30px; 
-            font-size:30px;
+            font-size:map-get($tamaño-pixeles, 30p);
         }
 
         .botonformulario{
@@ -25,7 +25,7 @@
 
         .encontra{
             text-align: $texto-centrado;
-             font-size: 50px;
+             font-size:map-get($tamaño-pixeles, 50p);
              text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
              margin-left: 60px;
         }
