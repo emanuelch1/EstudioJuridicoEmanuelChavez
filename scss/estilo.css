@@ -20,10 +20,6 @@
   font-size: 30px;
 }
 
-/*
-.nav-item{
-    font-size: 30px;   
-}*/
 @media (max-width: 800px) {
   .titulo {
     width: 100%;
