@@ -17,9 +17,29 @@
   list-style: none;
 }
 .navbar .nav-item {
-  font-size: 30px;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 180px;
+  border-radius: 15px;
+  background-color: rgb(95, 174, 235);
+  margin-left: 50px;
 }
 
+.nav-item:hover {
+  background-color: transparent;
+  border: 2px solid aqua;
+  color: aqua;
+}
+
+@media (max-width: 800px) {
+  .nav-item {
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+  }
+}
 @media (max-width: 800px) {
   .titulo {
     width: 100%;

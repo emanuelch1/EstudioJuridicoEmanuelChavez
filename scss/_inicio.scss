@@ -8,12 +8,37 @@
     width: auto;
     list-style: none;
     .nav-item{
-        font-size: map-get($tamaño-pixeles, 30p);   
+        display: block;
+        font-size: map-get($tamaño-pixeles, 20p); 
+        text-decoration: none;
+        text-align: center;
+        width: 180px;
+        border-radius: 15px;
+        background-color: rgb(95, 174, 235);
+        margin-left: 50px;
+        
+
+    }    
+         
     }
+   
+    .nav-item:hover {
+        background-color: transparent;
+        border: 2px solid aqua;
+        color: aqua;
+    }
+       
+
+
+    @media(max-width:800px){
+        .nav-item{
+            width: 200px;
+            text-align: center;
+            margin: 05px;
+           
     
-}
-
-
+        }
+    }
 
 
 
