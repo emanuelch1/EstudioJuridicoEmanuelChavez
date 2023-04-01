@@ -1,0 +1,78 @@
+  /*index*/   
+  
+@media(max-width:800px){
+    .titulo{
+        width: 100%;
+
+    }
+}
+
+
+.nombreprincipal{
+    text-align: $texto-centrado;
+    font-size: map-get($tamaño-pixeles, 50p);
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);   
+   
+}
+@media(max-width:800px){
+    .nombreprincipal{
+        font-size: map-get($tamaño-pixeles, 30p);
+
+    }
+}
+
+.carousel-inner img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.bienv{   
+    @include flexdos($texto-centrado,  $texto-principal, 50px);
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+}
+
+@media(max-width:800px){
+    .bienv{
+        width: 100%;
+        font-size: map-get($tamaño-pixeles, 50p);
+
+    }
+}
+
+
+.parrafouno{
+    @include flex($texto-centrado,$textos-azules,$color-parrafos);/*esto es un mixin*/
+
+    border: 3px solid black;
+    border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+    padding: 30px; 
+    
+    
+}
+
+@media(max-width:800px){
+    .esconder{
+        width: 100%;
+
+    }
+}
+
+.subti{
+    font-size: $texto-letrasust;  
+}
+
+
+.parrafoprincipal{  
+font-size: $textos-letraparrafo;
+}
+
+@media(max-width:800px){
+    .parrafoprincipal{
+       
+        font-size:map-get($tamaño-pixeles, 20p,);
+
+    }
+}
+

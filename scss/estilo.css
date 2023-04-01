@@ -8,7 +8,6 @@
   font-family: "Forum", cursiva;
 }
 
-/*selector index*/
 /*menu nav*/
 .navbar {
   background: #24C6DC;
@@ -40,6 +39,7 @@
     margin: 5px;
   }
 }
+/*index*/
 @media (max-width: 800px) {
   .titulo {
     width: 100%;
@@ -65,7 +65,7 @@
 .bienv {
   text-align: center;
   font-size: 70px;
-  margin: auto;
+  margin: 50px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
 }
 
@@ -77,13 +77,14 @@
 }
 .parrafouno {
   text-align: center;
+  font-size: 30px;
   background-color: rgb(43, 104, 177);
+  /*esto es un mixin*/
   border: 3px solid black;
   border-radius: 47px 47px 47px 47px;
   -webkit-border-radius: 47px 47px 47px 47px;
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
-  font-size: 30px;
 }
 
 @media (max-width: 800px) {
@@ -104,27 +105,7 @@
     font-size: 20px;
   }
 }
-.piep {
-  background: #24C6DC; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
-  font-size: 50px;
-  list-style: none;
-  width: 100%;
-  padding: 10px;
-}
-
-.redes {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.derecho {
-  font-size: 20px;
-  margin-top: 60px;
-}
-
-/* aca empieza solapa nosotros*/
+/*nosotros*/
 .quienes {
   text-align: center;
   font-size: 70px;
@@ -152,22 +133,16 @@
   margin: auto;
 }
 
-.titulosomos {
-  text-align: center;
-  margin: auto;
-  font-size: 60px;
-  width: 500px;
-}
-
 .parrafopie {
-  background-color: aqua;
   text-align: center;
   font-size: 20px;
   margin: 20px;
+  /*mixin*/
+  background-color: aqua;
   padding: 30px;
 }
 
-/* aca empieza solapa servicio*/
+/*servicio*/
 .nombreprincipalservi {
   text-align: center;
   font-size: 50px;
@@ -183,6 +158,7 @@
   text-align: center;
   font-size: 30px;
   margin: 20px;
+  /*mixin*/
   background-color: rgb(43, 104, 177);
   border: 3px solid black;
   border-radius: 47px 47px 47px 47px;
@@ -207,7 +183,7 @@
     margin-left: 10px;
   }
 }
-/* aca empieza solapa recomendaciones*/
+/*recomendaciones*/
 .clientes {
   margin: 30px;
 }
@@ -236,7 +212,7 @@
     font-size: 20px;
   }
 }
-/* aca empieza solapa contacto*/
+/*contacto*/
 .maincontacto {
   margin: 50px;
 }
@@ -321,4 +297,23 @@
   .mensaje {
     width: 100%;
   }
+}
+.piep {
+  background: #24C6DC; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  font-size: 50px;
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.derecho {
+  font-size: 20px;
+  margin-top: 60px;
 }/*# sourceMappingURL=estilo.css.map */

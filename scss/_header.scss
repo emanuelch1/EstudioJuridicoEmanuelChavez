@@ -1,0 +1,39 @@
+ /*menu nav*/
+ .navbar{
+    background: #24C6DC;  
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  
+    background: linear-gradient(to right, #514A9D, #24C6DC);   
+    width: auto;
+    list-style: none;
+    .nav-item{
+        display: block;
+        font-size: map-get($tamaño-pixeles, 20p); 
+        text-decoration: none;
+        text-align: center;
+        width: 180px;
+        border-radius: 15px;
+        background-color: rgb(95, 174, 235);
+        margin-left: 50px;
+
+    }    
+         
+    }
+   
+    .nav-item:hover {
+        background-color: transparent;
+        border: 2px solid aqua;
+        color: aqua;
+    }
+       
+
+
+    @media(max-width:800px){
+        .nav-item{
+            width: 200px;
+            text-align: center;
+            margin: 05px;
+           
+    
+        }
+    }
+

@@ -1,0 +1,13 @@
+@mixin flex($text-aling, $font-size, $color){
+    text-align: $text-aling;
+    font-size: $font-size;
+    background-color: $color;
+
+}
+
+@mixin flexdos($text-aling, $font-size, $margin){
+    text-align: $text-aling;
+    font-size: $font-size;
+    margin: $margin;
+
+}

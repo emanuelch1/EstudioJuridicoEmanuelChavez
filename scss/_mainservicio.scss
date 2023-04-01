@@ -1,4 +1,4 @@
-/* aca empieza solapa servicio*/
+/*servicio*/
 .nombreprincipalservi{
     text-align: $texto-centrado;
     font-size: map-get($tamaño-pixeles, 50p);
@@ -13,9 +13,8 @@
      
 
 .titulolista{
-    text-align:$texto-centrado;
-    font-size: map-get($tamaño-pixeles, 30p);
-    margin: 20px;
+    @include flexdos($texto-centrado,map-get($tamaño-pixeles, 30p), 20px);/*mixin*/
+   
     background-color: $color-parrafos;
     border: 3px solid black;
     border-radius: 47px 47px 47px 47px;
