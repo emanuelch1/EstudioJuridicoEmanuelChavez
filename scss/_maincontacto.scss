@@ -19,8 +19,26 @@
             font-size:map-get($tamaño-pixeles, 30p);
         }
 
+        .botonformu{
+            text-align: center;
+           
+            text-decoration: none;
+            width: 200px;
+        }
         .botonformulario{
-            background-color: rgb(43, 104, 177);
+            display: block;
+            font-size: map-get($tamaño-pixeles, 20p); 
+            text-decoration: none;
+            text-align: center;
+            width: 180px;
+            border-radius: 15px;
+            background-color: rgb(95, 174, 235);
+            margin-right: 200px;
+        }
+        .botonformulario:hover{
+            background-color: rgb(6, 219, 247);
+            border: 2px solid aqua;
+            color: rgb(12, 12, 12);
         }
 
         .encontra{

@@ -231,8 +231,25 @@
   padding: 30px;
   font-size: 30px;
 }
+.maincontacto .botonformu {
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
 .maincontacto .botonformulario {
-  background-color: rgb(43, 104, 177);
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 180px;
+  border-radius: 15px;
+  background-color: rgb(95, 174, 235);
+  margin-right: 200px;
+}
+.maincontacto .botonformulario:hover {
+  background-color: rgb(6, 219, 247);
+  border: 2px solid aqua;
+  color: rgb(12, 12, 12);
 }
 .maincontacto .encontra {
   text-align: center;
@@ -316,4 +333,19 @@
 .derecho {
   font-size: 20px;
   margin-top: 60px;
+}
+
+.error {
+  display: flex;
+}
+
+.errorimg {
+  width: 30%;
+  margin: 20px;
+  margin-left: 500px;
+}
+
+.ups {
+  font-size: 80px;
+  text-align: center;
 }/*# sourceMappingURL=estilo.css.map */
