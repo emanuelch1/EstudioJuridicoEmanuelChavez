@@ -33,7 +33,7 @@
 
 @media(max-width:800px){
     .bienv{
-        width: 100%;
+        width: 80%;
         font-size: map-get($tamaño-pixeles, 50p);
 
     }
@@ -62,6 +62,13 @@
 .subti{
     font-size: $texto-letrasust;  
 }
+@media(max-width:800px){
+    .subti{
+       margin: 20px;
+        font-size:40px;
+
+    }
+}
 
 
 .parrafoprincipal{  
@@ -70,8 +77,10 @@ font-size: $textos-letraparrafo;
 
 @media(max-width:800px){
     .parrafoprincipal{
-       
-        font-size:map-get($tamaño-pixeles, 20p,);
+        text-align: center;
+       margin: 20px;
+       font-size: 20px;
+       width: 400px;
 
     }
 }

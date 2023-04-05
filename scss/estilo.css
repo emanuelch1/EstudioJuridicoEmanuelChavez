@@ -71,7 +71,7 @@
 
 @media (max-width: 800px) {
   .bienv {
-    width: 100%;
+    width: 80%;
     font-size: 50px;
   }
 }
@@ -96,13 +96,22 @@
   font-size: 50px;
 }
 
+@media (max-width: 800px) {
+  .subti {
+    margin: 20px;
+    font-size: 40px;
+  }
+}
 .parrafoprincipal {
   font-size: 30px;
 }
 
 @media (max-width: 800px) {
   .parrafoprincipal {
+    text-align: center;
+    margin: 20px;
     font-size: 20px;
+    width: 400px;
   }
 }
 /*nosotros*/
@@ -179,8 +188,9 @@
 
 @media (max-width: 800px) {
   .video {
-    width: 100%;
-    margin-left: 10px;
+    width: 80%;
+    margin: 20px;
+    margin-left: 10%;
   }
 }
 /*recomendaciones*/
@@ -200,13 +210,11 @@
 }*/
 @media (max-width: 800px) {
   .subticlientes {
-    font-size: 30px;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 20px;
   }
 }
-/*
-.parrafoprincipalclientes{
-    font-size: 40px;
-}*/
 @media (max-width: 800px) {
   .parrafoprincipalclientes {
     font-size: 20px;
@@ -231,10 +239,12 @@
   padding: 30px;
   font-size: 30px;
 }
-.maincontacto .botonformu {
-  text-align: center;
-  text-decoration: none;
-  width: 200px;
+.maincontacto .mensaje {
+  margin-left: 10%;
+}
+.maincontacto .formu {
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .maincontacto .botonformulario {
   display: block;
@@ -244,7 +254,8 @@
   width: 180px;
   border-radius: 15px;
   background-color: rgb(95, 174, 235);
-  margin-right: 200px;
+  margin: 20px;
+  margin-left: 40%;
 }
 .maincontacto .botonformulario:hover {
   background-color: rgb(6, 219, 247);
@@ -252,67 +263,39 @@
   color: rgb(12, 12, 12);
 }
 .maincontacto .encontra {
+  margin: 30px;
   text-align: center;
   font-size: 50px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
-/*
-.contactanos{
-    text-align: $texto-centrado;
-    font-size: $texto-principal;
-    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
-}*/
-/*
-.parrafocontacto{
-    text-align: $texto-centrado;
-    background-color: rgb(43, 104, 177);
-    border: 3px solid black;
-    border-radius: 47px 47px 47px 47px;
--webkit-border-radius: 47px 47px 47px 47px;
--moz-border-radius: 47px 47px 47px 47px;
-    padding: 30px; 
-    font-size:30px;
-}*/
 @media (max-width: 800px) {
   .parrafocontacto {
-    margin-right: 20px;
+    margin-left: 50px;
     width: 300px;
-    padding: 20px;
-    font-size: 20px;
+    padding: 50px;
   }
 }
-/*
-.botonformulario{
-    background-color: rgb(43, 104, 177);
-}*/
-/*
-.encontra{
-    text-align: $texto-centrado;
-     font-size: 50px;
-     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
-     margin-left: 60px;
-}*/
 @media (max-width: 800px) {
   .encontra {
-    width: 100%;
+    width: 300px;
+    text-align: center;
     font-size: 30px;
     margin: 20px;
   }
 }
-/*
-.maincontacto{
-    margin: 50px;
-}*/
 @media (max-width: 800px) {
-  .formulario {
+  .formu {
     width: 100%;
+    text-align: center;
   }
 }
 @media (max-width: 800px) {
   .mensaje {
-    width: 100%;
+    text-align: center;
+    width: 80%;
+    margin-right: 20px;
   }
 }
 .piep {

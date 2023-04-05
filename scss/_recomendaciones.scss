@@ -20,13 +20,12 @@
 
 @media(max-width:800px){
     .subticlientes{
-        font-size: map-get($tamaño-pixeles, 30p);
+        margin: 0 auto;
+        width: 80%;
+        font-size: map-get($tamaño-pixeles, 20p);
     }
 }
-/*
-.parrafoprincipalclientes{
-    font-size: 40px;
-}*/
+
 
 @media(max-width:800px){
     .parrafoprincipalclientes{
