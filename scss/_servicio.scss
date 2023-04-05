@@ -31,13 +31,17 @@
 }
 
 .video{
-    margin: 30px;
-    margin-left: 400px;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 10%;
+ 
+ 
 }
 @media(max-width:800px){
     .video{
         width: 80%;
         margin: 20px;
+        margin-top: 60px;
         margin-left: 10%;
     }
 }
