@@ -317,7 +317,17 @@
 
 .derecho {
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 30px;
+}
+
+.datos {
+  display: block;
+  font-size: 20px;
+  margin: 30px;
+}
+
+.contenidodatos {
+  margin: 10px;
 }
 
 .error {
