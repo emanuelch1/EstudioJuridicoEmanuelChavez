@@ -1,17 +1,23 @@
-.error{
-    
-    display: flex;
-    
+
+.boton{
+          
+    text-decoration: none;
 }
 
 
-.errorimg{
-    width: 30%;
-    margin: 20px;
-    margin-left: 500px;
-}
-
-.ups{
-    font-size: 80px;
+.botonformulario{
+    display: block;
+    font-size: map-get($tamaño-pixeles, 20p); 
+    text-decoration: none;
     text-align: center;
+    width: 180px;
+    border-radius: 15px;
+    background-color: rgb(95, 174, 235);
+    margin: 20px;
+    margin-left: 40%;
+}
+.botonformulario:hover{
+    background-color: rgb(6, 219, 247);
+    border: 2px solid aqua;
+    color: rgb(12, 12, 12);
 }
