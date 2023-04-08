@@ -1,4 +1,6 @@
-
+.error{
+    margin-top: 100px;
+}
 .boton{
           
     text-decoration: none;
@@ -20,4 +22,14 @@
     background-color: rgb(6, 219, 247);
     border: 2px solid aqua;
     color: rgb(12, 12, 12);
+}
+.subtierror{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.parrafoerror{
+    text-align: center;
+    font-size: 30px;
 }
