@@ -47,13 +47,15 @@
 }
 .nombreprincipal {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin: 100px;
 }
 
 @media (max-width: 800px) {
   .nombreprincipal {
-    font-size: 30px;
+    font-size: 50px;
+    margin: 40px;
   }
 }
 .carousel-inner img {
@@ -85,6 +87,8 @@
   -webkit-border-radius: 47px 47px 47px 47px;
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
+  color: rgb(239, 231, 231);
+  margin-bottom: 100px;
 }
 
 @media (max-width: 800px) {
@@ -119,6 +123,7 @@
   text-align: center;
   font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin: 50px;
 }
 
 @media (max-width: 800px) {
@@ -135,6 +140,8 @@
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
   font-size: 30px;
+  color: rgb(239, 231, 231);
+  margin-bottom: 100px;
 }
 
 .card {
@@ -154,8 +161,9 @@
 /*servicio*/
 .nombreprincipalservi {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin: 60px;
 }
 
 @media (max-width: 800px) {
@@ -174,6 +182,7 @@
   -webkit-border-radius: 47px 47px 47px 47px;
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 10px;
+  color: rgb(239, 231, 231);
 }
 
 .listaparafo {
