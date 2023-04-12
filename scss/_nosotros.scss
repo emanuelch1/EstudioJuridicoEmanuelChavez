@@ -4,6 +4,7 @@
     text-align: $texto-centrado;
      font-size: $texto-principal;
      text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+     margin: 60px;
    
  }
  @media(max-width:800px){
@@ -21,6 +22,8 @@
 -moz-border-radius: 47px 47px 47px 47px;
     padding: 30px; 
     font-size:map-get($tamaño-pixeles, 30p);
+    color: rgb(251, 238, 221);
+    margin-bottom: 100px;
 }
 
 .card{

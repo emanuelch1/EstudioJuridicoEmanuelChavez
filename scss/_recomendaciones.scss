@@ -1,10 +1,11 @@
 /*recomendaciones*/
 
 .clientes{
-    margin: map-get($tamaño-pixeles, 30p);
+    margin: map-get($tamaño-pixeles, 60p);
 
     .subticlientes{
-        font-size: $texto-principal;  
+        font-size: $texto-principal;
+        margin: 60px; 
     }
     
     .parrafoprincipalclientes{

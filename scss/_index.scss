@@ -10,9 +10,11 @@
 
 .nombreprincipal{
     text-align: $texto-centrado;
-    font-size: map-get($tamaño-pixeles, 50p);
-    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);   
+    font-size: map-get($tamaño-pixeles, 70p);
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);  
+    margin: 100px; 
    
+
 }
 @media(max-width:800px){
     .nombreprincipal{
@@ -42,12 +44,13 @@
 
 .parrafouno{
     @include flex($texto-centrado,$textos-azules,$color-parrafos);/*esto es un mixin*/
-
+    color: rgb(251, 238, 221);
     border: 3px solid black;
     border-radius: 47px 47px 47px 47px;
 -webkit-border-radius: 47px 47px 47px 47px;
 -moz-border-radius: 47px 47px 47px 47px;
     padding: 30px; 
+    margin-bottom: 100px;
     
     
 }

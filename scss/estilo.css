@@ -47,8 +47,9 @@
 }
 .nombreprincipal {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin: 100px;
 }
 
 @media (max-width: 800px) {
@@ -80,11 +81,13 @@
   font-size: 30px;
   background-color: rgb(43, 104, 177);
   /*esto es un mixin*/
+  color: rgb(251, 238, 221);
   border: 3px solid black;
   border-radius: 47px 47px 47px 47px;
   -webkit-border-radius: 47px 47px 47px 47px;
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 800px) {
@@ -119,6 +122,7 @@
   text-align: center;
   font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin: 60px;
 }
 
 @media (max-width: 800px) {
@@ -135,6 +139,8 @@
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
   font-size: 30px;
+  color: rgb(251, 238, 221);
+  margin-bottom: 100px;
 }
 
 .card {
@@ -154,8 +160,9 @@
 /*servicio*/
 .nombreprincipalservi {
   text-align: center;
-  font-size: 50px;
+  font-size: 90px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin: 100px;
 }
 
 @media (max-width: 800px) {
@@ -168,6 +175,7 @@
   font-size: 30px;
   margin: 20px;
   /*mixin*/
+  color: rgb(251, 238, 221);
   background-color: rgb(43, 104, 177);
   border: 3px solid black;
   border-radius: 47px 47px 47px 47px;
@@ -197,10 +205,11 @@
 }
 /*recomendaciones*/
 .clientes {
-  margin: 30px;
+  margin: 60px;
 }
 .clientes .subticlientes {
   font-size: 70px;
+  margin: 60px;
 }
 .clientes .parrafoprincipalclientes {
   font-size: 40px;
@@ -230,6 +239,7 @@
   text-align: center;
   font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
 }
 .maincontacto .parrafocontacto {
   text-align: center;
@@ -240,6 +250,8 @@
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
   font-size: 30px;
+  color: rgb(251, 238, 221);
+  margin-bottom: 100px;
 }
 .maincontacto .mensaje {
   margin-left: 10%;
@@ -247,6 +259,12 @@
 .maincontacto .formu {
   margin: 0 auto;
   margin-top: 20px;
+}
+.maincontacto .form {
+  background-color: rgb(131, 230, 230);
+  padding: 30px;
+  border-radius: 47px 47px 47px 47px;
+  border: 3px solid black;
 }
 .maincontacto .boton {
   text-decoration: none;
