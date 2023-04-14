@@ -4,7 +4,11 @@
     text-align: $texto-centrado;
      font-size: $texto-principal;
      text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
+<<<<<<< HEAD
      margin: 50px;
+=======
+     margin: 60px;
+>>>>>>> scss
    
  }
  @media(max-width:800px){
@@ -22,8 +26,12 @@
 -moz-border-radius: 47px 47px 47px 47px;
     padding: 30px; 
     font-size:map-get($tamaño-pixeles, 30p);
+<<<<<<< HEAD
     color: rgb(239, 231, 231);
    
+=======
+    color: rgb(251, 238, 221);
+>>>>>>> scss
     margin-bottom: 100px;
 }
 

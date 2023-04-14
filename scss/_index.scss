@@ -11,14 +11,25 @@
 .nombreprincipal{
     text-align: $texto-centrado;
     font-size: map-get($tamaño-pixeles, 70p);
+<<<<<<< HEAD
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6); 
     margin: 100px;  
+=======
+    text-shadow: 3px -3px 12px rgba(0,0,0,0.6);  
+    margin: 100px; 
+>>>>>>> scss
    
+
 }
 @media(max-width:800px){
     .nombreprincipal{
+<<<<<<< HEAD
         font-size: map-get($tamaño-pixeles, 50p);
         margin: 40px;
+=======
+        font-size: map-get($tamaño-pixeles, 40p);
+        margin: 30px;
+>>>>>>> scss
 
     }
 }
@@ -26,6 +37,65 @@
 .carousel-inner img{
     height: 100%;
     object-fit: cover;
+}
+
+.parrafoinicio{
+    width: 80%;
+    text-align: center;
+    color: rgb(251, 238, 221);
+    background-color: rgba(33, 143, 227, 0.668);
+    font-size: 60px;
+    position: absolute;
+    top: 300px;
+    left: 120px; 
+}
+
+@media(max-width:800px){
+    .parrafoinicio{
+        font-size: 20px;
+        top: 80px;
+        left: 50px;
+
+    }
+}
+
+
+.parrafoconfianza{
+    width: 80%;
+    text-align: center;
+    color: rgb(251, 238, 221);
+    background-color: rgba(33, 143, 227, 0.63);
+    font-size: 60px;
+    position: absolute;
+    top: 300px;
+    left: 120px;
+}
+@media(max-width:800px){
+    .parrafoconfianza{
+        font-size: 20px;
+        top: 80px;
+        left: 50px;
+
+    }
+}
+
+.parrafopapeles{
+    width: 80%;
+    text-align: center;
+    color: rgb(251, 238, 221);
+    background-color: rgba(33, 143, 227, 0.63);
+    font-size: 50px;
+    position: absolute;
+    top: 220px;
+    left: 120px;
+}
+@media(max-width:800px){
+    .parrafopapeles{
+        font-size: 20px;
+        top: 40px;
+        left: 50px;
+
+    }
 }
 
 .bienv{   
@@ -44,16 +114,26 @@
 
 .parrafouno{
     @include flex($texto-centrado,$textos-azules,$color-parrafos);/*esto es un mixin*/
-
+    color: rgb(251, 238, 221);
     border: 3px solid black;
     border-radius: 47px 47px 47px 47px;
 -webkit-border-radius: 47px 47px 47px 47px;
 -moz-border-radius: 47px 47px 47px 47px;
     padding: 30px; 
+<<<<<<< HEAD
     color: rgb(239, 231, 231);
     margin-bottom: 100px;
     
     
+=======
+    margin-bottom: 100px; 
+}
+@media(max-width:800px){
+    .parrafouno{
+        font-size: 30px;
+
+    }
+>>>>>>> scss
 }
 
 @media(max-width:800px){

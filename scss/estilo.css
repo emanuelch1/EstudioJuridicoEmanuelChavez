@@ -54,8 +54,13 @@
 
 @media (max-width: 800px) {
   .nombreprincipal {
+<<<<<<< HEAD
     font-size: 50px;
     margin: 40px;
+=======
+    font-size: 40px;
+    margin: 30px;
+>>>>>>> scss
   }
 }
 .carousel-inner img {
@@ -64,6 +69,60 @@
      object-fit: cover;
 }
 
+.parrafoinicio {
+  width: 80%;
+  text-align: center;
+  color: rgb(251, 238, 221);
+  background-color: rgba(33, 143, 227, 0.668);
+  font-size: 60px;
+  position: absolute;
+  top: 300px;
+  left: 120px;
+}
+
+@media (max-width: 800px) {
+  .parrafoinicio {
+    font-size: 20px;
+    top: 80px;
+    left: 50px;
+  }
+}
+.parrafoconfianza {
+  width: 80%;
+  text-align: center;
+  color: rgb(251, 238, 221);
+  background-color: rgba(33, 143, 227, 0.63);
+  font-size: 60px;
+  position: absolute;
+  top: 300px;
+  left: 120px;
+}
+
+@media (max-width: 800px) {
+  .parrafoconfianza {
+    font-size: 20px;
+    top: 80px;
+    left: 50px;
+  }
+}
+.parrafopapeles {
+  width: 80%;
+  text-align: center;
+  color: rgb(251, 238, 221);
+  background-color: rgba(33, 143, 227, 0.63);
+  font-size: 50px;
+  position: absolute;
+  top: 220px;
+  left: 120px;
+}
+
+@media (max-width: 800px) {
+  .parrafopapeles {
+    font-size: 20px;
+    top: 40px;
+    left: 50px;
+  }
+}
 .bienv {
   text-align: center;
   font-size: 70px;
@@ -79,18 +138,27 @@
 }
 .parrafouno {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   background-color: rgb(43, 104, 177);
   /*esto es un mixin*/
+  color: rgb(251, 238, 221);
   border: 3px solid black;
   border-radius: 47px 47px 47px 47px;
   -webkit-border-radius: 47px 47px 47px 47px;
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
+<<<<<<< HEAD
   color: rgb(239, 231, 231);
+=======
+>>>>>>> scss
   margin-bottom: 100px;
 }
 
+@media (max-width: 800px) {
+  .parrafouno {
+    font-size: 30px;
+  }
+}
 @media (max-width: 800px) {
   .esconder {
     width: 100%;
@@ -123,7 +191,11 @@
   text-align: center;
   font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+<<<<<<< HEAD
   margin: 50px;
+=======
+  margin: 60px;
+>>>>>>> scss
 }
 
 @media (max-width: 800px) {
@@ -140,7 +212,11 @@
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
   font-size: 30px;
+<<<<<<< HEAD
   color: rgb(239, 231, 231);
+=======
+  color: rgb(251, 238, 221);
+>>>>>>> scss
   margin-bottom: 100px;
 }
 
@@ -161,22 +237,33 @@
 /*servicio*/
 .nombreprincipalservi {
   text-align: center;
+<<<<<<< HEAD
   font-size: 60px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
   margin: 60px;
+=======
+  font-size: 90px;
+  text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin: 100px;
+>>>>>>> scss
 }
 
 @media (max-width: 800px) {
   .nombreprincipalservi {
-    font-size: 35px;
+    font-size: 40px;
+    margin: 50px;
   }
 }
 .titulolista {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin: 20px;
   /*mixin*/
+  color: rgb(251, 238, 221);
   background-color: rgb(43, 104, 177);
+  width: 600px;
+  margin: auto;
+  margin-top: 40px;
   border: 3px solid black;
   border-radius: 47px 47px 47px 47px;
   -webkit-border-radius: 47px 47px 47px 47px;
@@ -185,9 +272,15 @@
   color: rgb(239, 231, 231);
 }
 
+@media (max-width: 800px) {
+  .titulolista {
+    font-size: 30px;
+    width: 80%;
+  }
+}
 .listaparafo {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .video {
@@ -206,10 +299,11 @@
 }
 /*recomendaciones*/
 .clientes {
-  margin: 30px;
+  margin: 60px;
 }
 .clientes .subticlientes {
   font-size: 70px;
+  margin: 60px;
 }
 .clientes .parrafoprincipalclientes {
   font-size: 40px;
@@ -239,6 +333,7 @@
   text-align: center;
   font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
 }
 .maincontacto .parrafocontacto {
   text-align: center;
@@ -249,6 +344,8 @@
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
   font-size: 30px;
+  color: rgb(251, 238, 221);
+  margin-bottom: 100px;
 }
 .maincontacto .mensaje {
   margin-left: 10%;
@@ -256,6 +353,12 @@
 .maincontacto .formu {
   margin: 0 auto;
   margin-top: 20px;
+}
+.maincontacto .form {
+  background-color: rgb(131, 230, 230);
+  padding: 30px;
+  border-radius: 47px 47px 47px 47px;
+  border: 3px solid black;
 }
 .maincontacto .boton {
   text-decoration: none;
