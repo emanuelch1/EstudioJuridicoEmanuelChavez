@@ -8,27 +8,38 @@
 
  @media(max-width:800px){
     .nombreprincipalservi{      
-        font-size: map-get($tamaño-pixeles, 35p);
+        font-size: map-get($tamaño-pixeles, 40p);
+        margin: 50px;
     }
 }
      
 
 .titulolista{
-    @include flexdos($texto-centrado,map-get($tamaño-pixeles, 30p), 20px);/*mixin*/
+    @include flexdos($texto-centrado,map-get($tamaño-pixeles, 40p), 20px);/*mixin*/
     color: rgb(251, 238, 221);
     background-color: $color-parrafos;
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
     border: 3px solid black;
     border-radius: 47px 47px 47px 47px;
 -webkit-border-radius: 47px 47px 47px 47px;
 -moz-border-radius: 47px 47px 47px 47px;
-    padding: 10px; 
+    padding: 10px;
  
+}
+@media(max-width:800px){
+    .titulolista{      
+        font-size: map-get($tamaño-pixeles, 30p);
+        width: 80%;
+
+    }
 }
 
 .listaparafo{
-    
+
     text-align: $texto-centrado;
-    font-size: map-get($tamaño-pixeles, 20p);
+    font-size: map-get($tamaño-pixeles, 30p);
 }
 
 .video{
