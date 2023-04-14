@@ -23,13 +23,24 @@
     padding: 30px; 
     font-size:map-get($tamaño-pixeles, 30p);
     color: rgb(239, 231, 231);
-   
     margin-bottom: 100px;
+}
+
+@media(max-width:800px){
+    .parrafodos{      
+        font-size: map-get($tamaño-pixeles, 20p);
+        margin: 50px;
+    }
 }
 
 .card{
     text-align: $texto-centrado;
    margin:auto;
+}
+@media(max-width:800px){
+    .card{      
+        margin-top: 20px;
+    }
 }
 
  .parrafopie{
