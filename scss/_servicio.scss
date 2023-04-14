@@ -1,15 +1,12 @@
 /*servicio*/
 .nombreprincipalservi{
     text-align: $texto-centrado;
-<<<<<<< HEAD
     font-size: map-get($tamaño-pixeles, 60p);
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
     margin: 60px;
-=======
     font-size: map-get($tamaño-pixeles, 90p);
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);
     margin: 100px;
->>>>>>> scss
  }
 
  @media(max-width:800px){
@@ -31,12 +28,9 @@
     border-radius: 47px 47px 47px 47px;
 -webkit-border-radius: 47px 47px 47px 47px;
 -moz-border-radius: 47px 47px 47px 47px;
-<<<<<<< HEAD
     padding: 10px; 
     color: rgb(239, 231, 231);
-=======
     padding: 10px;
->>>>>>> scss
  
 }
 @media(max-width:800px){

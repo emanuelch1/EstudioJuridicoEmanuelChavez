@@ -50,17 +50,16 @@
   font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
   margin: 100px;
+  text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
+  margin: 100px;
 }
 
 @media (max-width: 800px) {
   .nombreprincipal {
-<<<<<<< HEAD
     font-size: 50px;
     margin: 40px;
-=======
     font-size: 40px;
     margin: 30px;
->>>>>>> scss
   }
 }
 .carousel-inner img {
@@ -147,10 +146,8 @@
   -webkit-border-radius: 47px 47px 47px 47px;
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
-<<<<<<< HEAD
   color: rgb(239, 231, 231);
-=======
->>>>>>> scss
+  margin-bottom: 100px;
   margin-bottom: 100px;
 }
 
@@ -191,11 +188,7 @@
   text-align: center;
   font-size: 70px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
-<<<<<<< HEAD
   margin: 50px;
-=======
-  margin: 60px;
->>>>>>> scss
 }
 
 @media (max-width: 800px) {
@@ -212,11 +205,7 @@
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 30px;
   font-size: 30px;
-<<<<<<< HEAD
   color: rgb(239, 231, 231);
-=======
-  color: rgb(251, 238, 221);
->>>>>>> scss
   margin-bottom: 100px;
 }
 
@@ -237,15 +226,12 @@
 /*servicio*/
 .nombreprincipalservi {
   text-align: center;
-<<<<<<< HEAD
   font-size: 60px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
   margin: 60px;
-=======
   font-size: 90px;
   text-shadow: 3px -3px 12px rgba(0, 0, 0, 0.6);
   margin: 100px;
->>>>>>> scss
 }
 
 @media (max-width: 800px) {
@@ -270,6 +256,7 @@
   -moz-border-radius: 47px 47px 47px 47px;
   padding: 10px;
   color: rgb(239, 231, 231);
+  padding: 10px;
 }
 
 @media (max-width: 800px) {

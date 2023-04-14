@@ -11,25 +11,19 @@
 .nombreprincipal{
     text-align: $texto-centrado;
     font-size: map-get($tamaño-pixeles, 70p);
-<<<<<<< HEAD
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6); 
     margin: 100px;  
-=======
     text-shadow: 3px -3px 12px rgba(0,0,0,0.6);  
     margin: 100px; 
->>>>>>> scss
    
 
 }
 @media(max-width:800px){
     .nombreprincipal{
-<<<<<<< HEAD
         font-size: map-get($tamaño-pixeles, 50p);
         margin: 40px;
-=======
         font-size: map-get($tamaño-pixeles, 40p);
         margin: 30px;
->>>>>>> scss
 
     }
 }
@@ -120,12 +114,10 @@
 -webkit-border-radius: 47px 47px 47px 47px;
 -moz-border-radius: 47px 47px 47px 47px;
     padding: 30px; 
-<<<<<<< HEAD
     color: rgb(239, 231, 231);
     margin-bottom: 100px;
     
     
-=======
     margin-bottom: 100px; 
 }
 @media(max-width:800px){
@@ -133,7 +125,6 @@
         font-size: 30px;
 
     }
->>>>>>> scss
 }
 
 @media(max-width:800px){
