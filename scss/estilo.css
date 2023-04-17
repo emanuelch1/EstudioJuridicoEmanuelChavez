@@ -81,9 +81,10 @@
 
 @media (max-width: 800px) {
   .parrafoinicio {
+    width: 80%;
     font-size: 20px;
-    top: 80px;
-    left: 50px;
+    top: 10px;
+    left: 30px;
   }
 }
 .parrafoconfianza {
@@ -99,9 +100,10 @@
 
 @media (max-width: 800px) {
   .parrafoconfianza {
+    width: 80%;
     font-size: 20px;
-    top: 80px;
-    left: 50px;
+    top: 10px;
+    left: 30px;
   }
 }
 .parrafopapeles {
@@ -117,9 +119,10 @@
 
 @media (max-width: 800px) {
   .parrafopapeles {
-    font-size: 20px;
-    top: 40px;
-    left: 50px;
+    width: 80%;
+    font-size: 15px;
+    top: 10px;
+    left: 30px;
   }
 }
 .bienv {
@@ -178,9 +181,7 @@
 @media (max-width: 800px) {
   .parrafoprincipal {
     text-align: center;
-    margin: 5px;
     font-size: 20px;
-    width: 400px;
   }
 }
 /*nosotros*/
@@ -301,7 +302,7 @@
 }
 .clientes .subticlientes {
   font-size: 70px;
-  margin: 60px;
+  margin: 30px;
 }
 .clientes .parrafoprincipalclientes {
   font-size: 40px;
